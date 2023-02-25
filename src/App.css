@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+.App {
+  padding: 80px;
+}
+
+hgroup {
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+p {
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+.contents-bar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents-bar button {
+  background-color: white;
+  border: none;
+  color: purple;
+  font-size: 0.9em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+  text-align: left;
+  box-shadow: none;
+}
+
+.contents-bar button:hover {
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.contents-bar button:active {
+  background-color: lightblue;
+  border: 0px;
+}
+
+.form-container {
+  margin-left: 300px;
+  width: 60%;
+}
+
+.form-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid black;
+}
+
+.last-form-section {
+  padding-top: 40px;
+}
+
+form {
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+form small {
+  font-style: italic;
+  font-size: 0.6em;
+}
+
+fieldset {
+  font-size: 0.9em;
+}
+
+fieldset legend {
+  padding-bottom: 10px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.form-buttons button {
+  width: 250px;
+  font-family: Poppins, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid transparent;
+}
+
+.form-buttons button:hover {
+  border: 1px solid black;
+}
+
+.previous-button {
+  background-color: rgb(240, 173, 78);
+}
+
+.submit-button {
+  background-color: rgb(92, 184, 92);
+}
+
+.next-button {
+  background-color: rgb(51, 122, 183);
+}
