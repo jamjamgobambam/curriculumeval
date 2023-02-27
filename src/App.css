@@ -4,18 +4,8 @@
   padding: 80px;
 }
 
-hgroup {
-  font-family: Poppins, Verdana, sans-serif;
-}
-
-p {
-  font-family: Poppins, Verdana, sans-serif;
-}
-
 .contents-bar {
   position: fixed;
-  display: flex;
-  flex-direction: column;
 }
 
 .contents-bar button {
@@ -55,10 +45,6 @@ p {
   padding-top: 40px;
 }
 
-form {
-  font-family: Poppins, Verdana, sans-serif;
-}
-
 form small {
   font-style: italic;
   font-size: 0.6em;
@@ -80,7 +66,6 @@ fieldset legend {
 
 .form-buttons button {
   width: 250px;
-  font-family: Poppins, Verdana, sans-serif;
   font-weight: 600;
   font-size: 1em;
   text-transform: uppercase;

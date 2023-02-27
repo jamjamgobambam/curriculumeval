@@ -1,4 +1,5 @@
 import React from 'react'
+import {Lessons} from '../data/Lessons'
 
 const GettingStarted = ({feedbackData, handleChange}) => {
 
