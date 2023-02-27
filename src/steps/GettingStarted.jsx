@@ -1,5 +1,4 @@
 import React from 'react'
-import {Lessons} from '../data/Lessons'
 
 const GettingStarted = ({feedbackData, handleChange}) => {
 
@@ -46,11 +45,11 @@ const GettingStarted = ({feedbackData, handleChange}) => {
                     <option>Unit 1: Object-Oriented Programming</option>
                     <option>Unit 2: Class Structure and Design</option>
                     <option>Unit 3: Arrays and Algorithms</option>
-                    <option>Unit 4: Conditions and Logic</option>
+                    {/* <option>Unit 4: Conditions and Logic</option>
                     <option>Unit 5: Two-Dimensional Arrays</option>
                     <option>Unit 6: ArrayLists and String Methods</option>
                     <option>Unit 7: Method Decomposition and Recursion</option>
-                    <option>Unit 8: Searching and Sorting</option>
+                    <option>Unit 8: Searching and Sorting</option> */}
                 </select>
 
                 <select id="lesson" name="lesson" onChange={handleChange('lesson')} required>

@@ -22,7 +22,7 @@ function App() {
     <div className="App">
 
       <header>
-        <h1>Curriculum Review</h1>
+        <h1>CSA Curriculum Review 🕵️</h1>
       </header>
 
       <main><EvalForm /></main>
