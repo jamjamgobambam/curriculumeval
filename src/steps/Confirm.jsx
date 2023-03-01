@@ -3,6 +3,10 @@ import { supabase } from '../client'
 
 const Confirm = ({feedbackData}) => {
 
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
+    }, [])
+
     const addFeedbackData = async () => {
         const {error} = await supabase
         .from('feedback')

@@ -52,7 +52,7 @@ const GettingStarted = ({feedbackData, handleChange}) => {
                     <option>Unit 8: Searching and Sorting</option> */}
                 </select>
 
-                <select id="lesson" name="lesson" onChange={handleChange('lesson')} required>
+                <select id="lesson" value={feedbackData.lesson} name="lesson" onChange={handleChange('lesson')} required>
                     <option>Select a lesson...</option>
                     {options}
                 </select>
