@@ -155,7 +155,7 @@ const Levels = ({feedbackData, handleChange}) => {
                             Yes
                         </label>
                         <label>
-                            <input type="radio" id="starterCodeNo" name="starter-code" checked={"yes" === feedbackData.starterCode} value="no" onChange={handleChange('starterCode')} />
+                            <input type="radio" id="starterCodeNo" name="starter-code" checked={"no" === feedbackData.starterCode} value="no" onChange={handleChange('starterCode')} />
                             No
                         </label>
                     </fieldset>
@@ -174,7 +174,7 @@ const Levels = ({feedbackData, handleChange}) => {
                             Yes
                         </label>
                         <label>
-                            <input type="radio" id="exemplarNo" name="exemplar" checked={"yes" === feedbackData.exemplar} value="no" onChange={handleChange('exemplar')} />
+                            <input type="radio" id="exemplarNo" name="exemplar" checked={"mp" === feedbackData.exemplar} value="no" onChange={handleChange('exemplar')} />
                             No
                         </label>
                     </fieldset>
