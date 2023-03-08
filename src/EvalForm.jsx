@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { supabase } from './client'
 import Contents from './components/Contents'
 import GettingStarted from './steps/GettingStarted'
 import LessonPlan from './steps/LessonPlan'
@@ -62,7 +63,7 @@ const EvalForm = () => {
                     <Levels feedbackData={feedback} handleChange={handleChange} />
                 )}
                 {activeStep === 5 && (
-                    <Confirm feedbackData={feedback} handleChange={handleChange} />
+                    <Confirm feedbackData={feedback} />
                 )}
 
                 <div className="form-buttons">
